@@ -1,0 +1,2 @@
+/// @description
+draw_sprite_ext(sprite_index, image_index, x - (z * oCamera.x_step * oCamera.image_zscale) + random_range(-wobble, wobble), y - (z * oCamera.y_step * oCamera.image_zscale) + random_range(-wobble, wobble), image_xscale, image_yscale, image_angle + 0.5 * dsin(current_time * 0.2) * 1/image_xscale, image_blend, 1.0 );

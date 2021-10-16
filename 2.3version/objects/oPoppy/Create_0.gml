@@ -1,0 +1,9 @@
+/// @description
+
+// Inherit the parent event
+event_inherited();
+
+image_speed = 0;
+angle = -1;
+
+sprite_index = choose(sPoppy1, sPoppy2, sPoppy3);
